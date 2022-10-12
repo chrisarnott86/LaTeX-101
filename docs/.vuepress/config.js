@@ -61,7 +61,11 @@ module.exports = {
     },
 
     plugins: [
-        require('./assets.js')
+        require('./assets.js'),
+        '@maginapp/vuepress-plugin-katex',
+	{
+          delimiters: 'dollars'
+        }
     ],
 
     configureWebpack: (config, isServer) => {

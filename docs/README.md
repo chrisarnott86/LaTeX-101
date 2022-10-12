@@ -52,3 +52,5 @@ footer: MIT Licensed | Copyright © 2017-2021 Michael Brade
     <a href="https://github.com/michael-brade/LaTeX.js">GitHub</a>.</p>
   </div>
 </div>
+
+This is some maths $e^{i\pi}+1=0$
