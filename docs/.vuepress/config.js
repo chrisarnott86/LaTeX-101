@@ -26,7 +26,8 @@ module.exports = {
         search: false,
         sidebar: [
             '',                 // Home
-	    'startoff' 
+	    'startoff',
+	    'test'
         ],
 
         // sidebar: [
@@ -59,6 +60,7 @@ module.exports = {
 
     plugins: [
         require('./assets.js'),
+	'@vuepress/back-to-top',
         '@maginapp/vuepress-plugin-katex',
 	{
           delimiters: 'dollars'

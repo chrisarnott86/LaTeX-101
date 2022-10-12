@@ -59,6 +59,7 @@
     "@rollup/plugin-commonjs": "20.0.x",
     "@rollup/plugin-node-resolve": "13.0.x",
     "@svgdotjs/svg.js": "3.x",
+    "@vuepress/plugin-back-to-top": "^1.9.7",
     "chai": "4.x",
     "chai-as-promised": "7.x",
     "codecov": "3.x",
