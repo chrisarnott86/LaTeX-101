@@ -1,7 +1,7 @@
 const description = require('../../package.json').description
 
 module.exports = {
-    title: 'LaTeX.js',
+    title: 'LaTeX 101',
     description: description,
 
     dest: 'website',
@@ -18,18 +18,15 @@ module.exports = {
         logo: '/img/latexjs.png',
         nav: [
             { text: 'Home', link: '/' },
-            { text: 'Guide', link: '/usage.html' },
-            { text: 'Playground', link: '/playground.html', target:'_self', rel:'' },
-            { text: 'ChangeLog', link: 'https://github.com/michael-brade/LaTeX.js/releases'},
-            { text: 'GitHub', link: 'https://github.com/michael-brade/LaTeX.js' },
+            { text: 'Guide', link: '/startoff.html' },
+            { text: 'Sandbox', link: '/sandbox.html', target:'_self', rel:'' },
+            //{ text: 'ChangeLog', link: 'https://github.com/michael-brade/LaTeX.js/releases'},
+            //{ text: 'GitHub', link: 'https://github.com/michael-brade/LaTeX.js' },
         ],
         search: false,
         sidebar: [
             '',                 // Home
-            'usage',
-            'api',
-            'extending',
-            'limitations'
+	    'startoff' 
         ],
 
         // sidebar: [
@@ -65,7 +62,9 @@ module.exports = {
         '@maginapp/vuepress-plugin-katex',
 	{
           delimiters: 'dollars'
-        }
+        },
+	['vuepress-plugin-code-copy', {staticIcon: true,
+	color: '#006938'}]
     ],
 
     configureWebpack: (config, isServer) => {

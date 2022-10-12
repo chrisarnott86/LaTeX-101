@@ -9,7 +9,7 @@
         :src="$withBase($site.themeConfig.logo)"
         :alt="$siteTitle"
       >
-      <LaTeX/>.js
+      <LaTeX/> 101
     </RouterLink>
 
     <div
