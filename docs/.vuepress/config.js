@@ -27,7 +27,8 @@ module.exports = {
         sidebar: [
             '',                 // Home
 	    'startoff',
-	    'test'
+	    'install',
+        'test'
         ],
 
         // sidebar: [

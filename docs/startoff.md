@@ -28,7 +28,53 @@ on the content.
 
 ## How to Use This Site
 
-<latex/> 101 provides all the information you need to get started in using <latex/>
+<latex/> 101 provides all the information you need to get started in using <latex/>.
+
+[Installation](./install.md), has installation instructions for Windows, Mac OS
+and Linux. Once you've got <latex/> installed, you're ready to write!
+
+To get a start with [Creating](./creating.md) has all the information you need to start
+creating documents.
+
+If you want to dive in and play with a full <latex/> document go to the 
+[Sandbox](./sandbox.md) where a full page document is running, edit and play to
+your heart's content.
+
+### Site Code
+
+On <latex/> 101 all code examples are written either as short snippets
+like this: `example command`, or in full boxes like this:
+
+```latex
+Hello world from \LaTeX{}.
+```
+
+All text boxes have a copy button in the bottom right hand corner to make
+it easy to copy code examples.
+
+
+
+
+## TLDR
+
+If you're lucky enough to be running Linux, the following should be enough
+to get a minimal setup running on a Debian or RedHat derived system.
+
+```bash
+sudo [apt|yum] install texlive
+```
+
+Now create a new text file `nano test.tex` with the contents
+
+```latex
+\documentclass[a4paper,12pt]{article}
+
+\begin{document}
+Hello world from \LaTeX.
+\end{document}
+```
+
+Now run `pdflatex test.txt`, and you're done! $e^{i\pi}+1=0$
 
 ## Test of a Video
 

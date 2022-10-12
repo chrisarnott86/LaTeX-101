@@ -33,5 +33,3 @@ footer: MIT Licensed | Copyright © 2022 A Student
     <p>Refer to any section, equation, figure within your document with ease. Create a bibliography and citations with minimal effort.</p>
   </div>
 </div>
-
-This is some maths $e^{i\pi}+1=0$
