@@ -94,7 +94,8 @@
     "tmp": "0.x",
     "vue-codemirror": "4.0.x",
     "vuepress": "1.8.x",
-    "vuepress-plugin-code-copy": "^1.0.6"
+    "vuepress-plugin-code-copy": "^1.0.6",
+    "vuepress-theme-yuu": "^3.1.1"
   },
   "mocha": {
     "require": "livescript",

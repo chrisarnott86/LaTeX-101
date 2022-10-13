@@ -178,7 +178,7 @@ export default {
                 showCursorWhenSelecting: true,
 
                 // TODO
-                autofocus: true,
+                autofocus: false,
                 lineWrapping: true,
                 lineNumbers: true,
                 indentUnit: 4

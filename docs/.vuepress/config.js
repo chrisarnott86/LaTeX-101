@@ -13,9 +13,14 @@ module.exports = {
             type: 'image/x-icon'
         }]
     ],
-
+    //theme: 'yuu',
     themeConfig: {
         logo: '/img/latexjs.png',
+        //themeConfig: {
+	//  yuu: {
+	//	disableThemeIgnore: true,
+	//       },
+        //},
         nav: [
             { text: 'Home', link: '/' },
             { text: 'Guide', link: '/startoff.html' },
@@ -48,7 +53,7 @@ module.exports = {
         //       }
         // ],
         sidebarDepth: 1,
-        displayAllHeaders: true,
+        displayAllHeaders: false,
         activeHeaderLinks: true
     },
 

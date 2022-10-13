@@ -8,6 +8,8 @@ platform, so choose your platform to find out how to install.
 * [Linux](./install.md#linux)
 * [Online](./install.md#online)
 
+[[toc]]
+
 In general for each system a distribution of <latex/> is installed together with
 an editor or development environment to make life a little easier.
 
@@ -41,7 +43,7 @@ started.
 
 View the video for a complete overview of using MacTex
 
-<embed height="350" width="600" src="https://www.youtube.com/embed/7u4_gzx-9rE">
+<embed height="408" width="700" src="https://www.youtube.com/embed/7u4_gzx-9rE">
 
 
 ## Linux
@@ -52,9 +54,20 @@ specific editors and IDEs available.
 For any Debian or Redhat derived system, installation is a simple terminal 
 command.
 
+<code-group>
+<code-block title="apt">
 ```bash
-sudo [apt|yum] install texlive
+sudo apt install texlive
 ```
+</code-block>
+
+<code-block title="yum">
+```bash
+sudo yum install texlive
+```
+</code-block>
+</code-group>
+
 
 To write <latex/> documents you can use any editor or IDE, you may already be a vim
 or emacs fan in which case stick with what you know. Here are some alternative
@@ -72,3 +85,11 @@ anything.
 [Overleaf](https://www.overleaf.com/), is one of the main online <latex/> services.
 It is primariy a paid service, but a free tier is available which lacks the
 collaborative features of the paid service.
+
+## Another coding bit
+
+Here is some text to add to this section
+
+<ClientOnly>
+  <LtxPlaygroundSmall />
+</ClientOnly>
