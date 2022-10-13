@@ -3,6 +3,9 @@ home: true
 navbar: true
 footer: MIT Licensed | Copyright © 2022 A Student
 ---
+
+<!--<ToggleDarkMode/>-->
+
 <header class="hero">
   <h1 id="main-title">
       <img src="/img/latexjs.png" alt="LaTeX.js"> <latex/> 101
