@@ -8,10 +8,10 @@ footer: MIT Licensed | Copyright © 2022 A Student
 
 <header class="hero">
   <h1 id="main-title">
-      <img src="/img/latexjs.png" alt="LaTeX.js"> <latex/> 101
+      <div style="color:#006938;"><img src="/img/book-green.png" alt="LaTeX 101"> <latex/> 101</div>
   </h1>
 
-  <p class="description">A friendly introdution to <latex/></p>
+  <p class="description">A friendly introduction to <latex/></p>
 
   <p class="action">
     <a href="/startoff.html" class="nav-link action-button">Get Started! →</a>
@@ -27,12 +27,12 @@ footer: MIT Licensed | Copyright © 2022 A Student
   </div>
 
   <div class="feature">
-    <h2>Easily Write Maths</h2>
-    <p>Easily and consistently include Maths in your work</p>
+    <h2>Easy Maths</h2>
+    <p>Easily and consistently include complex Maths in your work.</p>
   </div>
 
   <div class="feature">
-    <h2>Refererences</h2>
-    <p>Refer to any section, equation, figure within your document with ease. Create a bibliography and citations with minimal effort.</p>
+    <h2>References</h2>
+    <p>Refer to any section, equation or figure within your document with ease. Create a bibliography and citations with minimal effort.</p>
   </div>
 </div>

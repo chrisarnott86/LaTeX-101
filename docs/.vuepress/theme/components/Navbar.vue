@@ -3,13 +3,15 @@
     <SidebarButton @toggle-sidebar="$emit('toggle-sidebar')" />
 
     <RouterLink :to="$localePath" class="home-link">
+     <div style="color:#006938;">
       <img
         v-if="$site.themeConfig.logo"
         class="logo"
-        :src="$withBase($site.themeConfig.logo)"
+        :src="$withBase($site.themeConfig.logogreen)"
         :alt="$siteTitle"
       >
       <LaTeX/> 101
+      </div>
     </RouterLink>
 
     <div
@@ -88,6 +90,11 @@ function css (el, property) {
 $navbar-vertical-padding = 0.7rem
 $navbar-horizontal-padding = 1.5rem
 
+//.nav-links a.router-link-active,
+//.nav-links a:hover {
+// color:#fff
+//}
+
 .navbar
   padding $navbar-vertical-padding $navbar-horizontal-padding
   line-height $navbarHeight - 1.4rem
@@ -101,7 +108,7 @@ $navbar-horizontal-padding = 1.5rem
   .links
     padding-left 1.5rem
     box-sizing border-box
-    background-color white
+    //background-color white
     white-space nowrap
     font-size 0.9rem
     position absolute

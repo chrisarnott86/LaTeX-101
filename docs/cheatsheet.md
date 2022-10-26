@@ -1,34 +1,35 @@
-Description
-===========
-Cheatsheet for LaTex, using Markdown for markup. I use this with [atom.io](https://atom.io/)
-and :package:`markdown-preview-plus` to write math stuff. :package:`keyboard-localization`
-is necessary when using an international layout (like [swiss] german).
+# Cheat Sheet
 
-Further Reference and source: ftp://ftp.ams.org/pub/tex/doc/amsmath/short-math-guide.pdf
+Cheatsheet for <latex/>, this is a quick reference page for commands.
 
-Example expressions / functions
-============================
+
+## Functions
 
 Input             | Rendered        |
 -----------------:|----------------:|
 `$a = b + c − d$` | $a = b + c − d$ |
-`$\sqrt{?\frac{\pi}{2}}$` | $\sqrt{\frac{\pi}{2}}$ |
+`$\sqrt{\frac{\pi}{2}}$` | $\sqrt{\frac{\pi}{2}}$ |
 `$y = a x_1^2 + b x_2 + c$` | $y = a x_1^2 + b x_2 + c$ |
 
-Special characters / Symbols
-============================
-###Latin:
-#####No dot:  
+## Symbols
+
+### Latin:
+
+#### No dot:  
+
 `\imath` $\rightarrow$ $\imath$,
 `\jmath` $\rightarrow$ $\jmath$
 
-#####Hat:  
+#### Hat:  
+
 `\hat{\imath}`  $\rightarrow$ $\hat{\imath}$,
 `\hat{\jmath}`  $\rightarrow$ $\hat{\jmath}$
 
-###Greek Letters:
-#####Capital:
-LaTex      |   | LaTex    |   |
+### Greek Letters:
+
+#### Capital:
+
+<latex/>      |   | <latex/>    |   |
 ----------:|--:|---------:|--:|
 `\Gamma`   | Γ | `\Delta` | ∆ |
 `\Lambda`  | Λ | `\Phi`   | Φ |
@@ -37,8 +38,9 @@ LaTex      |   | LaTex    |   |
 `\Upsilon` | Υ | `\Xi`    | Ξ |
 `\Omega`   | Ω |          |   |
 
-#####Lowercase:
-LaTex      |   | LaTex     |   |
+#### Lowercase:
+
+<latex/>     |   | <latex/>     |   |
 ----------:|--:|----------:|--:|
 `\alpha`   | α | `\nu`     | ν |
 `\beta`    | β | `\kappa`  | κ |
@@ -53,8 +55,9 @@ LaTex      |   | LaTex     |   |
 `\chi`     | χ | `\psi`    | ψ |
 `\omega`   | ω |           |   |
 
-#####Other:
-LaTex       |   | LaTex       |   |
+#### Other:
+
+<latex/>       |   | <latex/>       |   |
 -----------:|---|------------:|--:|
 `\digamma`  | ϝ | `varepsilon`| ε       |
 `\varkappa` | ϰ | `\varphi`   | ϕ       |
@@ -63,9 +66,9 @@ LaTex       |   | LaTex       |   |
 `\eth`      | ð | `\hbar`     | $\hbar$ |
 
 
-###Other:
-####Other Symbols
-LaTex         |   | LaTex            |   |
+#### Other Symbols
+
+<latex/>         |   | <latex/>           |   |
 -------------:|---|-----------------:|--:|
 `\partial`    | ∂ | `\infty`         | ∞ |
 `\wedge`      | ∧ | `\vee`           | ∨ |
@@ -76,8 +79,9 @@ LaTex         |   | LaTex            |   |
 `\surd`       | √ | `\forall`        | ∀ |
 `\exists`     | ∃ | `\nexists`       | ∄ |
 
-####Relational Symbols
-LaTex             |   | LaTex              |          |
+### Relational Symbols
+
+<latex/>            |   | <latex/>              |          |
 -----------------:|---|-------------------:|---------:|
 `\hookrightarrow` | ↪      | `\Rightarrow`     | ⇒         |
 `\rightarrow`     | →      | `\Leftrightarrow` | ⇔         |
@@ -91,49 +95,19 @@ LaTex             |   | LaTex              |          |
 `\perp`            | ⊥     | ` \parallel`     | ∥          |
 `\vartriangle`     | $\vartriangle$
 
-####Binary operators
-LaTex        |   | LaTex  |   |
+### Binary operators
+
+<latex/>        |   | <latex/>  |   |
 ------------:|---|-------:|--:|
 `\wedge`     | ∧ | `\vee` | ∨ |
 `\neg``\not` | ¬ |        |   |
 
-####Cumulative operators
-LaTex     |           | LaTex       |             |
+### Cumulative operators
+
+<latex/>    |           | <latex/>       |             |
 ---------:|-----------|------------:|------------:|
 `\int`    | ∫         | `\iint`     | $\iint$     |
-`\iiint`  | $\iiint$  | `\idotsint` | $\idotsint$ |
-`\prod`   | $\prod$   | `\sum`      | $\sum$      |
-`\bigcup` | $\bigcup$ | `\bigcap`   | $\bigcap$   |
-
-####Named operators
-$\arccos$,
-$\arcsin$,
-$\arctan$,
-$\arg$,
-$\cos$,
-$\cosh$,
-$\cot$,
-$\coth$,
-$\deg$,
-$\det$,
-$\dim$,
-$\exp$,
-$\gcd$,
-$\hom$,
-$\inf$,
-$\injlim$,
-$\lg$,
-$\lim$,
-$\liminf$,
-$\limsup$,
-$\ln$,
-$\log$,
-$\max$,
-$\min$,
-$\Pr$,
-$\projlim$,
-$\sec$,
-$\sin$,
-$\sinh$,
-$\sup$
+`\iiint`  | $\iiint$  | `\sum` | $\sum$ |
+`\prod`   | $\prod$   | `\bigcap`      | $\bigcap$      |
+`\bigcup` | $\bigcup$ |
 

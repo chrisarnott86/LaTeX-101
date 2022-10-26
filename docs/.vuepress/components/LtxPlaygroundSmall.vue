@@ -2,7 +2,7 @@
 	<div>	
         <codemirror id="latex-editor" :value="code" :options="cmOptions" @input="onCmCodeChange" @ready="onCmReady" />
         <iframe id="preview" ref="preview" sandbox="allow-same-origin allow-scripts"></iframe>
-        <tick />
+        <!--<tick />-->
         </div>
 </template>
 

@@ -1,6 +1,6 @@
 {
   "name": "latex.js",
-  "description": "JavaScript LaTeX to HTML5 translator",
+  "description": "A friendly introduction to LaTeX",
   "version": "0.12.4",
   "author": {
     "name": "Michael Brade",

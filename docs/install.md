@@ -3,11 +3,6 @@
 The process and software choices for installing <latex/> vary by
 platform, so choose your platform to find out how to install.
 
-* [Windows](./install.md#windows)
-* [Mac OS](./install.md#mac-os) 
-* [Linux](./install.md#linux)
-* [Online](./install.md#online)
-
 [[toc]]
 
 In general for each system a distribution of <latex/> is installed together with
@@ -22,9 +17,11 @@ distribution first.
 
 For Windows the standard distribution is [MikTex](https://miktex.org/).
 
-Here is a video explaining the installation process for Window.
+Here is a video explaining the installation process for Windows.
 
-<embed width="600" height="350" src="https://www.youtube.com/embed/uKetjJTDSqk">
+<!--<embed width="740" height="Y432" src="https://www.youtube.com/embed/uKetjJTDSqk">-->
+<!--<embed src="https://www.youtube.com/embed/uKetjJTDSqk">-->
+<WindowsVideo />
 
 Two popular choices for <latex/> editors are linked below, with installers
 available for Windows.
@@ -32,10 +29,10 @@ available for Windows.
 * [Texmaker](https://www.xm1math.net/texmaker/)
 * [Texstudio](https://www.texstudio.org/)
 
-## Mac OS
+## macOS
 
-For Mac OS, the standard installation is [MacTex](https://www.tug.org/mactex/), 
-this bundles the MacTex distrinbution together with the TeXShop editor and some
+For macOS, the standard installation is [MacTex](https://www.tug.org/mactex/), 
+this bundles the MacTex distribution together with the TeXShop editor and some
 other utilities. One install file is all you need.
 
 Download the [installer](https://www.tug.org/mactex/mactex-download.html) to get
@@ -43,8 +40,8 @@ started.
 
 View the video for a complete overview of using MacTex
 
-<embed height="408" width="700" src="https://www.youtube.com/embed/7u4_gzx-9rE">
-
+<!--<embed src="https://www.youtube.com/embed/7u4_gzx-9rE">-->
+<MacVideo />
 
 ## Linux
 
@@ -83,13 +80,5 @@ Using an online service simplifies much of the process, as there's no need to in
 anything.
 
 [Overleaf](https://www.overleaf.com/), is one of the main online <latex/> services.
-It is primariy a paid service, but a free tier is available which lacks the
+It is primarily a paid service, but a free tier is available which lacks the
 collaborative features of the paid service.
-
-## Another coding bit
-
-Here is some text to add to this section
-
-<ClientOnly>
-  <LtxPlaygroundSmall />
-</ClientOnly>
